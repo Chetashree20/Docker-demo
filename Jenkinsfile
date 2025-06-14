@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git url: 'https://github.com/Ashu2356/my-web-app.git', branch: '22-Q3'
+                git url: 'https://github.com/Chetashree20/Docker-demo.git', branch: '22-Q3'
             }
         }
         stage('Deploy') {
